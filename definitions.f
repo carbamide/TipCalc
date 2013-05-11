@@ -1,0 +1,1 @@
+constant kDefaultPrefs :=	'{		forceTwoPlaces: true,		calcBeforeTax: nil,		rememberTipPercent: nil,		lastTipPercent: nil,	};	OpenResFile(HOME & "Bitmaps.rsrc");DefConst('kAppIcon, GetPictAsBits("TipCalc Icon", nil));CloseResFile();
